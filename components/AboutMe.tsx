@@ -1,7 +1,3 @@
-import Image from 'next/image';
-import drums from '../public/The Band - Sitting.png';
-import me from '../public/0f2d9214-d9b9-4f6f-a757-eb3c53ddde37.jpg';
-
 type Props = {};
 
 const AboutMe = (props: Props) => {

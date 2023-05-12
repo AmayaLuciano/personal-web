@@ -10,7 +10,7 @@ type Props = {};
 
 const Technologies = (props: Props) => {
   return (
-    <div className="w-[700px]  mt-14">
+    <div className="w-[350px] md:w-[700px]  mt-14 mx-auto">
       <div
         id="/#technologies"
         className="flex border-b-2 dark:border-zinc-700 border-zinc-300"
@@ -19,7 +19,7 @@ const Technologies = (props: Props) => {
           🤓 Technologies
         </p>
       </div>
-      <div className="grid grid-cols-3 gap-2 mt-4">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-2 mt-4">
         <div className="dark:bg-zinc-800 bg-zinc-200 p-2 rounded-md flex hover:bg-slate-300 dark:hover:bg-zinc-700 cursor-default">
           {' '}
           <Image src={ts} alt="typescript" width={20} height={20} />

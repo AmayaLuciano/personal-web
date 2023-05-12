@@ -6,9 +6,9 @@ type Props = {};
 
 const AboutMe = (props: Props) => {
   return (
-    <div className="grid grid-cols-4 mt-4">
-      <div>
-        <p className="text-9xl">👨🏻‍💻</p>
+    <div className="md:grid md:grid-cols-4 mt-4  flex flex-col">
+      <div className="mx-auto">
+        <p className="text-9xl ">👨🏻‍💻</p>
       </div>
       <div className="my-auto col-span-3 font-light tracking-tight">
         <p>

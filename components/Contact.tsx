@@ -11,7 +11,7 @@ const Contact = (props: Props) => {
   };
 
   return (
-    <div className="flex justify-between mt-8">
+    <div className="flex justify-between mt-8 ">
       <div className="border-2 border-zinc-600 w-[45%] h-14 flex">
         <Link className="my-auto ml-3 flex" href={'#'}>
           <Image

@@ -1,43 +1,39 @@
 import Image from 'next/image';
 import React from 'react';
-import typescript from '../../public/icons8-typescript-48.png';
+import react from '../../public/icons8-react-100.png';
 import next from '../../public/nextjs_icon.png';
 import github from '../../public/icons8-github-50.png';
-import tailwind from '../../public/icons8-tailwind-css-48.png';
 import githubDark from '../../public/icons8-github-50 (1).png';
-import aerolab from '../../public/aerolab.png';
+import movies from '../../public/movies.png';
 import Link from 'next/link';
 
 type Props = {};
 
-const Aerolab = (props: Props) => {
+const Movies = (props: Props) => {
   return (
     <div className="relative mx-auto dark:bg-zinc-800 bg-zinc-200 rounded-sm group/item max-h-80 shadow-lg">
       <div className=" h-48 bg-slate-400 ">
         {' '}
-        <Image src={aerolab} alt="aerolab img" className="h-48 w-full" />{' '}
+        <Image src={movies} alt="aerolab img" className="h-48 w-full" />{' '}
       </div>
 
       <div className="p-2 flex flex-col h-32">
-        <h3>🛠 Aerolab Shop</h3>
-        <p className="text-sm">This is an ecommerce responsive website</p>
+        <h3>🛠 Movies App</h3>
+        <p className="text-sm">
+          You can see the latest movies with his overview
+        </p>
         <p className="text-sm bg-orange-500 w-fit rounded-md px-2 my-auto">
           Personal
         </p>
         <div className="flex text-sm mt-auto mb-0">
           <div className="flex">
-            <Image src={typescript} alt="react" width={20} height={20} />{' '}
-            <p className="ml-1">Typescript</p>
+            <Image src={react} alt="react" width={20} height={20} />{' '}
+            <p className="ml-1">React</p>
           </div>
           <div className="flex ml-2">
             {' '}
             <Image src={next} alt="next" width={20} height={20} />
-            <p className="ml-1">Next</p>
-          </div>
-          <div className="flex ml-2">
-            {' '}
-            <Image src={tailwind} alt="next" width={20} height={20} />
-            <p className="ml-1">Tailwind css</p>
+            <p className="ml-1">Next js</p>
           </div>
         </div>
       </div>
@@ -99,4 +95,4 @@ const Aerolab = (props: Props) => {
   );
 };
 
-export default Aerolab;
+export default Movies;

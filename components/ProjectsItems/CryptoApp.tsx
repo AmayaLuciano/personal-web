@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import react from '../../public/icons8-react-100.png';
-import next from '../../public/nextjs_icon.png';
+import chakra from '../../public/icons8-chakra-ui-48.png';
 import github from '../../public/icons8-github-50.png';
 import githubDark from '../../public/icons8-github-50 (1).png';
 import crypto from '../../public/cryptoapp.png';
@@ -32,8 +32,8 @@ const CryptoApp = (props: Props) => {
           </div>
           <div className="flex ml-2">
             {' '}
-            <Image src={next} alt="next" width={20} height={20} />
-            <p className="ml-1">Next js</p>
+            <Image src={chakra} alt="next" width={20} height={20} />
+            <p className="ml-1">Chakra UI</p>
           </div>
         </div>
       </div>

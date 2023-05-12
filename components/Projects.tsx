@@ -1,6 +1,8 @@
 import React from 'react';
 import Aerolab from './ProjectsItems/Aerolab';
 import CryptoApp from './ProjectsItems/CryptoApp';
+import SimpleCart from './ProjectsItems/SimpleCart';
+import Movies from './ProjectsItems/Movies';
 
 type Props = {};
 
@@ -15,8 +17,8 @@ const Projects = (props: Props) => {
       <div className="mt-8 grid  md:grid-cols-2 gap-2">
         <Aerolab />
         <CryptoApp />
-        <Aerolab />
-        <Aerolab />
+        <SimpleCart />
+        <Movies />
       </div>
     </div>
   );

@@ -41,9 +41,7 @@ const Movies = (props: Props) => {
         <div className="flex justify-center ">
           <div className="mt-[45%] mr-4">
             <Link
-              href={
-                'https://github.com/AmayaLuciano/frontend-aerolab-challenge'
-              }
+              href={'https://github.com/AmayaLuciano/MoviesApp_Next_TS'}
               target="_blank"
               className="mx-auto my-auto cursor-pointer"
             >
@@ -65,7 +63,7 @@ const Movies = (props: Props) => {
           </div>
           <div className="mt-[45%] ml-4">
             <Link
-              href={'https://frontend-aerolab-challenge.vercel.app/'}
+              href={'https://movies-app-next-ts.vercel.app/'}
               target="_blank"
               className="mx-auto my-auto cursor-pointer"
             >
